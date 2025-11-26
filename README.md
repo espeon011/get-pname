@@ -4,3 +4,9 @@
 [rustemon](https://docs.rs/rustemon) を使って [PokeAPI](https://pokeapi.co/) から取得する. 
 
 カレントディレクトリに `rustemon-cache` という名前のディレクトリが作成される. 
+
+## Usage Example
+
+```shell
+nix run github:espeon011/get-pname ja
+```
