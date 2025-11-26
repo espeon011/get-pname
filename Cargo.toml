@@ -1,0 +1,9 @@
+[package]
+name = "get-pname"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.51", features = ["derive"] }
+rustemon = { version = "4.3.0" }
+tokio = { version = "1.47.1", features = ["rt-multi-thread"] }
